@@ -21,10 +21,6 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .btn-purple {
-            background-color: #6f42c1;
-            color: #6f42c1;
-        }
     </style>
 </head>
 
@@ -119,7 +115,7 @@
                         </div>
                         <div class="col-12">
                             <div class="d-grid">
-                                <button class="btn btn-purple" type="submit">Sign up</button>
+                               <button type="submit" class="btn" style="background-color: #6A0DAD; border-color: #6A0DAD; color: white;">Sign Up</button>
                             </div>
                         </div>
                         <div class="mt-3">
