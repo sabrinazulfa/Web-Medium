@@ -25,6 +25,22 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="navbar-nav ms-auto">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="#">Dashboard</a>
+                    <a class="nav-link" href="#">Logout</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <section class="form-container">
         <div class="col-6 col-md-4 form-content">
             <div class="p-3 p-md-4 p-xl-5">

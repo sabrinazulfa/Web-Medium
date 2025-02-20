@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MediOn</title>
+    <title>TomoGaku</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
 </head>
@@ -13,7 +13,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="/">MediOn</a>
+            <a class="navbar-brand" href="/">TomoGaku</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -75,7 +75,10 @@
                         <label for="comment" class="form-label">Comment</label>
                         <textarea class="form-control" id="comment" name="content" rows="3"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn" style="background-color: #6A0DAD; border-color: #6A0DAD; color: white;">
+                        Submit
+                    </button>
+
 
                     @error('comment')
                         <div class="alert alert-danger mt-3">{{ $message }}</div>
