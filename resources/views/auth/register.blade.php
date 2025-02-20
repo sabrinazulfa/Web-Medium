@@ -23,7 +23,7 @@
         }
         .btn-purple {
             background-color: #6f42c1;
-            color: white;
+            color: #6f42c1;
         }
     </style>
 </head>
