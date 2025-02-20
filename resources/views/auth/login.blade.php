@@ -101,7 +101,7 @@
                             <input type="password" class="form-control" name="password" placeholder="Password" required>
                         </div>
                         <div class="d-grid">
-                            <button class="btn btn-primary" type="submit">Login</button>
+                            <button class="btn btn-purple" type="submit">Login</button>
                         </div>
                         <div class="mt-3">
                             <span>Don't have account?</span> <a href="{{ route('register') }}">Register</a>

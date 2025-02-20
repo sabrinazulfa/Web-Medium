@@ -115,7 +115,7 @@
                         </div>
                         <div class="col-12">
                             <div class="d-grid">
-                                <button class="btn btn-primary" type="submit">Sign up</button>
+                                <button class="btn btn-purple" type="submit">Sign up</button>
                             </div>
                         </div>
                         <div class="mt-3">
