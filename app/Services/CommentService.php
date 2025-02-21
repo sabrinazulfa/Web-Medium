@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace App\Services;
 
@@ -36,7 +36,7 @@ class CommentService
         if ($validator->fails()) {
             throw new ValidationException($validator);
         }
-        
+
         $comment = Comment::find($id);
         if ($comment) {
             $comment->update($data);
