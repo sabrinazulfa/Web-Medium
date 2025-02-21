@@ -96,7 +96,7 @@
                 <div class="col-md-3">
                     <h5>Contact Us</h5>
                     <ul class="list-unstyled">
-                        <li>Email: <a href="admin@tomogaku.ip-ddns.com">admin@tomogaku.ip-ddns.com</a></li>
+                        <li>Email: <a href="mailto:admin@tomogaku.ip-ddns.com">admin@tomogaku.ip-ddns.com</a></li>
                         <li>Phone: +6285735160156</li>
                         <li>Address: Jakarta, Indonesia</li>
                     </ul>
