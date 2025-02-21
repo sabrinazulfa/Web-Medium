@@ -74,6 +74,37 @@
         </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white mt-auto py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>About Us</h5>
+                    <p> TomoGaku - Teman Belajar Bahasa Jepang. We are dedicated to empowering educators, students, and professionals from around the globe by providing
+                        a platform that fosters learning, innovation, and collaboration. Our commitment to transforming education
+                        has made us the go-to destination for all those passionate about shaping the future of learning.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="{{ route('articles.latest') }}" class="text-white">Latest Articles</a></li>
+                        <li><a href="https://sabrinazulfa.github.io/event/index.html" target="_blank" class="text-white">Tomogaku Event</a></li>
+                        <li><a href="{{ route('login') }}" class="text-white">Signin</a></li>
+                        <li><a href="{{ route('register') }}" class="text-white">Signup</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contact Us</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: admin@tomogaku.ip-ddns.com</li>
+                        <li>Phone: +6285735160156</li>
+                        <li>Address: Jakarta, Indonesia</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('assets/js/index.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
