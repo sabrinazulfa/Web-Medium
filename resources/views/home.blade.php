@@ -87,8 +87,8 @@
                 <div class="col-md-3">
                     <h5>Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="{{ route('articles.latest') }}" class="text-white">Latest Articles</a></li>
                         <li><a href="https://sabrinazulfa.github.io/event/index.html" target="_blank" class="text-white">Tomogaku Event</a></li>
+                        <li><a href="#" class="text-white">Home</a></li>
                         <li><a href="{{ route('login') }}" class="text-white">Signin</a></li>
                         <li><a href="{{ route('register') }}" class="text-white">Signup</a></li>
                     </ul>
