@@ -81,7 +81,6 @@
                 <div class="col-md-6">
                     <h5>About Us</h5>
                     <p> Tomogaku (Teman Belajar) is an online learning platform dedicated to helping learners master the Japanese language in a fun and effective way.
-                        Our courses are designed for all levels, from beginners to advanced learners, with interactive lessons, engaging exercises, and expert guidance.
                         Whether you're learning for travel, work, or personal growth, Tomogaku provides a structured and supportive environment to achieve your language goals.
                         Join us and start your journey to fluency today!</p>
                 </div>
